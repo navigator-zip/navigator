@@ -1,0 +1,78 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "reorderableList.announcement.reorderCancelled" : {
+      "comment" : "Accessibility announcement spoken when a row reorder is cancelled.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reorder cancelled."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "並べ替えをキャンセルしました。"
+          }
+        }
+      }
+    },
+    "reorderableList.announcement.reorderCompleted" : {
+      "comment" : "Accessibility announcement spoken when a row reorder completes. The first placeholder is the original 1-based position and the second is the final 1-based position.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moved row from position %lld to %lld."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld番目の行を%2$lld番目に移動しました。"
+          }
+        }
+      }
+    },
+    "reorderableList.announcement.reorderDestination" : {
+      "comment" : "Accessibility announcement spoken while a row reorder is in progress. The first placeholder is the current 1-based destination position and the second is the total row count.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moving to position %lld of %lld."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld件中%1$lld番目に移動中です。"
+          }
+        }
+      }
+    },
+    "reorderableList.announcement.reorderStarted" : {
+      "comment" : "Accessibility announcement spoken when a row reorder begins. The first placeholder is the dragged row's initial 1-based position and the second is the total row count.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Started moving row %lld of %lld."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%2$lld件中%1$lld番目の行の移動を開始しました。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

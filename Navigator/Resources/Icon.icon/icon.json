@@ -1,0 +1,74 @@
+{
+  "fill-specializations" : [
+    {
+      "value" : {
+        "solid" : "display-p3:0.93333,0.93333,0.93333,1.00000"
+      }
+    },
+    {
+      "appearance" : "dark",
+      "value" : {
+        "solid" : "extended-srgb:0.28464,-0.00076,0.99970,1.00000"
+      }
+    }
+  ],
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "blend-mode" : "normal",
+          "fill" : {
+            "solid" : "extended-gray:1.00000,1.00000"
+          },
+          "glass" : false,
+          "image-name" : "vector.svg",
+          "name" : "vector",
+          "position" : {
+            "scale" : 21,
+            "translation-in-points" : [
+              20,
+              20
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    },
+    {
+      "layers" : [
+        {
+          "blend-mode" : "hard-light",
+          "glass" : false,
+          "hidden" : false,
+          "image-name" : "gradient-default-ddo06.png",
+          "name" : "gradient-default-ddo06"
+        },
+        {
+          "blend-mode" : "overlay",
+          "image-name" : "gradient-darkness-19fos.png",
+          "name" : "gradient-darkness-19fos"
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : [
+      "macOS"
+    ]
+  }
+}

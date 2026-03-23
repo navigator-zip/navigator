@@ -1,0 +1,1716 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "browser.sidebar.action.closeTab" : {
+      "comment" : "Accessibility label and help text for closing a browser tab.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close Tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タブを閉じる"
+          }
+        }
+      }
+    },
+    "browser.sidebar.action.closeWindow" : {
+      "comment" : "Accessibility label and help text for the sidebar-hosted close window button.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close Window"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウインドウを閉じる"
+          }
+        }
+      }
+    },
+    "browser.sidebar.action.minimizeWindow" : {
+      "comment" : "Accessibility label and help text for the sidebar-hosted minimize window button.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minimize Window"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ウインドウを最小化"
+          }
+        }
+      }
+    },
+    "browser.sidebar.action.pinTab" : {
+      "comment" : "Context-menu action for pinning a browser tab in the sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pin Tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タブを固定"
+          }
+        }
+      }
+    },
+    "browser.sidebar.action.replacePinnedTabURL" : {
+      "comment" : "Context-menu action for replacing a pinned tab's saved startup URL with the currently loaded page.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Replace Pinned Tab URL with Current URL"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "固定タブの URL を現在の URL に置き換える"
+          }
+        }
+      }
+    },
+    "browser.sidebar.action.toggleFullScreen" : {
+      "comment" : "Accessibility label and help text for the sidebar-hosted full screen toggle button.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toggle Full Screen"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フルスクリーンを切り替える"
+          }
+        }
+      }
+    },
+    "browser.sidebar.action.unpinTab" : {
+      "comment" : "Context-menu action for removing a browser tab from the pinned section in the sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unpin Tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タブの固定を解除"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.indicator.active" : {
+      "comment" : "Accessibility label and tooltip for the browser sidebar camera activity indicator shown on tabs currently using Navigator Camera.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator Camera active"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator Camera が有効です"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.label.preset" : {
+      "comment" : "Label for the camera filter preset picker in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フィルター"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.label.grain" : {
+      "comment" : "Label for the camera grain picker in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Grain"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "グレイン"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.label.source" : {
+      "comment" : "Label for the camera source picker in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソース"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.action.refreshSources" : {
+      "comment" : "Button title for refreshing available camera sources in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh Sources"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースを更新"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.activity.currentTab" : {
+      "comment" : "Label shown when the currently selected browser tab is using Navigator Camera.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This tab is using Navigator Camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このタブは Navigator Camera を使用しています"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.activity.multipleTabsFormat" : {
+      "comment" : "Label shown when multiple browser tabs are using Navigator Camera.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d tabs are using Navigator Camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%d 個のタブが Navigator Camera を使用しています"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.activity.singleTabFormat" : {
+      "comment" : "Label shown when a non-selected browser tab is using Navigator Camera.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Using Navigator Camera: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator Camera を使用中: %@"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.consumers.format" : {
+      "comment" : "Compact diagnostics line showing live and preview consumer counts for the shared browser camera session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live consumers: %d • Preview consumers: %d"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ライブ消費者: %d • プレビュー消費者: %d"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.frames.format" : {
+      "comment" : "Compact diagnostics line showing processed frames, dropped frames, and average processing latency for the shared browser camera session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frames: %d • Dropped: %d • Avg: %@ ms"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレーム: %d • ドロップ: %d • 平均: %@ ms"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.pipeline.format" : {
+      "comment" : "Compact diagnostics line showing the active camera pipeline implementation, warmup profile, and required filter count for the shared browser camera session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pipeline: %@ • %@ • %d filters"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パイプライン: %@ • %@ • フィルター %d 個"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.browserTransport.format" : {
+      "comment" : "Compact diagnostics line showing tracked browser transport tabs, managed track count, and browser-process fallback usage for the shared browser camera session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Browser transport: tabs %d • Tracks: %d • Fallback: %d"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブラウザ転送: タブ %d • トラック %d • フォールバック %d"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.latestEvent.format" : {
+      "comment" : "Compact diagnostics line showing the latest managed camera diagnostic event in sidebar and menu bar camera controls.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latest event: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最新イベント: %@"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.browserProcessFallbackActivated" : {
+      "comment" : "Compact diagnostics event label shown when Navigator falls back to a browser-process-managed camera path.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Browser fallback activated"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブラウザフォールバック有効"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.captureFailed" : {
+      "comment" : "Compact diagnostics event label shown when camera capture fails.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capture failed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャプチャ失敗"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.captureStartRequested" : {
+      "comment" : "Compact diagnostics event label shown when camera capture startup has been requested.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capture start requested"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャプチャ開始要求"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.captureStarted" : {
+      "comment" : "Compact diagnostics event label shown when camera capture starts successfully.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capture started"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャプチャ開始"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.captureStopped" : {
+      "comment" : "Compact diagnostics event label shown when camera capture stops.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capture stopped"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャプチャ停止"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.consumerRegistered" : {
+      "comment" : "Compact diagnostics event label shown when a managed camera consumer registers with the shared session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consumer registered"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消費者を登録"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.consumerUnregistered" : {
+      "comment" : "Compact diagnostics event label shown when a managed camera consumer unregisters from the shared session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consumer unregistered"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消費者を解除"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.deviceAvailabilityChanged" : {
+      "comment" : "Compact diagnostics event label shown when available camera sources change.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera source availability changed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラソース更新"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.filterPresetChanged" : {
+      "comment" : "Compact diagnostics event label shown when the selected managed camera filter preset changes.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Filter preset changed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フィルター変更"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.firstFrameProduced" : {
+      "comment" : "Compact diagnostics event label shown when the first managed camera frame is produced.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First frame produced"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "初回フレーム生成"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.managedTrackEnded" : {
+      "comment" : "Compact diagnostics event label shown when a managed browser video track ends.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed track ended"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理トラック終了"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.managedTrackStarted" : {
+      "comment" : "Compact diagnostics event label shown when a managed browser video track starts.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed track started"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理トラック開始"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.managedTrackStopped" : {
+      "comment" : "Compact diagnostics event label shown when a managed browser video track stops.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed track stopped"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理トラック停止"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.permissionProbeFailed" : {
+      "comment" : "Compact diagnostics event label shown when a site-level managed camera permission probe fails.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permission probe failed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "権限確認失敗"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.explicitDeviceBypassed" : {
+      "comment" : "Compact diagnostics event label shown when a site explicitly requests a physical camera and bypasses Navigator-managed routing.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Explicit device bypassed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "明示デバイスをバイパス"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.managedTrackDeviceSwitchRejected" : {
+      "comment" : "Compact diagnostics event label shown when a site tries to switch a managed camera track to another device and Navigator rejects it.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed track switch rejected"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理トラック切替を拒否"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.preferredSourceChanged" : {
+      "comment" : "Compact diagnostics event label shown when the preferred managed camera source changes.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preferred source changed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "優先ソース変更"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.previewChanged" : {
+      "comment" : "Compact diagnostics event label shown when the shared managed camera preview is toggled.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preview toggled"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレビュー切り替え"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.processingDegraded" : {
+      "comment" : "Compact diagnostics event label shown when managed camera processing falls below realtime thresholds.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processing degraded"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "処理劣化"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.processingRecovered" : {
+      "comment" : "Compact diagnostics event label shown when managed camera processing recovers after degradation.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processing recovered"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "処理回復"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.publisherStatusChanged" : {
+      "comment" : "Compact diagnostics event label shown when the managed virtual-camera publisher state changes.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publisher status changed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公開状態変更"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.routingChanged" : {
+      "comment" : "Compact diagnostics event label shown when the managed camera routing contract changes.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Routing changed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ルーティング変更"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.event.sourceLost" : {
+      "comment" : "Compact diagnostics event label shown when the selected managed camera source is lost.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source lost"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソース喪失"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.format" : {
+      "comment" : "Compact diagnostics line showing the current system virtual camera publisher state and frame transport mode for the shared browser camera session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publisher: %@ • Transport: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公開: %@ • 転送: %@"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.available" : {
+      "comment" : "Compact diagnostics value shown when Navigator-managed camera output is available for generic browser video requests.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Managed output available"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理出力を利用可能"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.degraded" : {
+      "comment" : "Compact diagnostics value shown when Navigator-managed camera routing is degraded and fail-closed behavior applies.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Degraded (fail closed)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "劣化中（失敗時はクローズ）"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.directPhysicalCapture" : {
+      "comment" : "Compact diagnostics value shown when the browser camera path is using direct physical capture instead of Navigator-managed output.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direct physical capture"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直接の物理キャプチャ"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.navigatorPreferenceDisabled" : {
+      "comment" : "Compact diagnostics value shown when Navigator-managed camera routing is disabled by the user's prefer-Navigator-camera policy.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator preference off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator 優先はオフ"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.noAvailableSource" : {
+      "comment" : "Compact diagnostics value shown when Navigator-managed camera routing has no available source device.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No camera source"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラソースなし"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.pipelineFallback" : {
+      "comment" : "Compact diagnostics value shown when Navigator-managed camera routing cannot satisfy requests because the processing pipeline is unavailable and fail-closed behavior applies.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pipeline unavailable (fail closed)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "パイプライン利用不可（失敗時はクローズ）"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.publisherUnavailable" : {
+      "comment" : "Compact diagnostics value shown when system-published virtual-camera routing is unavailable and fail-closed behavior applies.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Publisher unavailable (fail closed)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公開先利用不可（失敗時はクローズ）"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.routingDisabled" : {
+      "comment" : "Compact diagnostics value shown when Navigator-managed camera routing is disabled.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Routing disabled"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ルーティング無効"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.availability.sourceLost" : {
+      "comment" : "Compact diagnostics value shown when Navigator-managed camera routing has lost its source and fail-closed behavior applies.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source lost (fail closed)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソース喪失（失敗時はクローズ）"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.routing.format" : {
+      "comment" : "Compact diagnostics line showing whether generic browser camera requests currently resolve to Navigator-managed output and why.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Routing: %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ルーティング: %@"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.state.failed" : {
+      "comment" : "Publisher state label shown when Navigator's system virtual camera publisher has failed.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Failed"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "失敗"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.state.idle" : {
+      "comment" : "Publisher state label shown when Navigator's system virtual camera publisher is idle.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idle"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "待機"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.state.notRequired" : {
+      "comment" : "Publisher state label shown when a system virtual camera publisher is not required for the current camera session.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not required"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不要"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.state.ready" : {
+      "comment" : "Publisher state label shown when Navigator's system virtual camera publisher is ready.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "準備完了"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.state.starting" : {
+      "comment" : "Publisher state label shown when Navigator's system virtual camera publisher is starting.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "起動中"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.state.unavailable" : {
+      "comment" : "Publisher state label shown when Navigator's system virtual camera publisher is unavailable.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unavailable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "利用不可"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.transport.copiedFrames" : {
+      "comment" : "Publisher transport label shown when Navigator's system virtual camera publisher uses copied frame transport.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copied frames"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー転送"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.transport.inProcess" : {
+      "comment" : "Publisher transport label shown when Navigator's system virtual camera publisher uses in-process transport.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In-process"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同一プロセス"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.transport.sharedMemory" : {
+      "comment" : "Publisher transport label shown when Navigator's system virtual camera publisher uses shared-memory transport.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shared memory"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有メモリ"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.diagnostics.publisher.transport.unknown" : {
+      "comment" : "Publisher transport label shown when Navigator cannot determine the current system virtual camera publisher transport.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不明"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preview.placeholder.disabled" : {
+      "comment" : "Placeholder text shown when the browser sidebar camera preview is disabled.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preview is off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレビューはオフです"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preview.placeholder.unavailable" : {
+      "comment" : "Placeholder text shown when the browser sidebar has no available camera source to preview.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No camera source available"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "利用できるカメラソースがありません"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preview.placeholder.waiting" : {
+      "comment" : "Placeholder text shown while the browser sidebar is waiting for a camera preview image.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waiting for preview"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレビューを待機しています"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.folia" : {
+      "comment" : "Title for the Folia camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folia"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Folia"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.bubblegum" : {
+      "comment" : "Title for the Bubblegum camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bubblegum"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bubblegum"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.darkroom" : {
+      "comment" : "Title for the Darkroom camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Darkroom"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Darkroom"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.dither" : {
+      "comment" : "Title for the Dither camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dither"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ディザ"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.mononoke" : {
+      "comment" : "Title for the Mononoke camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mononoke"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mononoke"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.none" : {
+      "comment" : "Title for the no-filter camera preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なし"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.glowInTheDark" : {
+      "comment" : "Title for the Glow in the Dark camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glow in the Dark"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Glow in the Dark"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.habenero" : {
+      "comment" : "Title for the Habenero camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Habenero"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Habenero"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.supergold" : {
+      "comment" : "Title for the Supergold camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supergold"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supergold"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.tonachrome" : {
+      "comment" : "Title for the Tonachrome camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tonachrome"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tonachrome"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.grain.none" : {
+      "comment" : "Title for the no-grain camera option in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なし"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.grain.normal" : {
+      "comment" : "Title for the standard film grain camera option in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "標準"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.grain.high" : {
+      "comment" : "Title for the strong film grain camera option in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強い"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.preset.vertichrome" : {
+      "comment" : "Title for the Vertichrome camera filter preset in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vertichrome"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vertichrome"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.source.automatic" : {
+      "comment" : "Title for the automatic camera source selection option in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatic"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.source.defaultFormat" : {
+      "comment" : "Format string for the default camera source option in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (Default)"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@（デフォルト）"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.status.failed" : {
+      "comment" : "Status label shown when the browser sidebar camera session has failed.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera unavailable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラを利用できません"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.status.idle" : {
+      "comment" : "Status label shown when the browser sidebar camera session is idle.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera idle"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラは待機中です"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.status.preparing" : {
+      "comment" : "Status label shown when the browser sidebar camera session is preparing.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preparing camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラを準備しています"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.status.running" : {
+      "comment" : "Status label shown when the browser sidebar camera session is live.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera live"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラはライブです"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.status.starting" : {
+      "comment" : "Status label shown when the browser sidebar camera session is starting.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラを開始しています"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.status.stopping" : {
+      "comment" : "Status label shown when the browser sidebar camera session is stopping.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopping camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラを停止しています"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.title" : {
+      "comment" : "Section title for the camera controls in the browser sidebar.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラ"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.toggle.preview" : {
+      "comment" : "Title for the preview toggle in the browser sidebar camera controls.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Preview"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "プレビューを表示"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.toggle.horizontalFlip" : {
+      "comment" : "Title for the horizontal flip toggle in the browser sidebar camera controls.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flip Horizontally"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "左右反転"
+          }
+        }
+      }
+    },
+    "browser.sidebar.camera.toggle.routing" : {
+      "comment" : "Title for the routing toggle in the browser sidebar camera controls.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Route Camera Requests"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラ要求をルーティング"
+          }
+        }
+      }
+    },
+    "browser.sidebar.label.emptyTabs" : {
+      "comment" : "Text shown when no browser tabs are open.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No tabs open"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タブが開かれていません"
+          }
+        }
+      }
+    },
+    "browser.sidebar.value.newTab" : {
+      "comment" : "Fallback title shown for a tab that does not yet have a resolved host or URL.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New Tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいタブ"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

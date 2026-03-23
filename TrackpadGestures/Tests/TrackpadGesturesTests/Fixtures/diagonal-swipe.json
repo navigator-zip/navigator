@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "name": "diagonal-swipe",
+    "device": "fixture-trackpad",
+    "osVersion": "macOS 15",
+    "expectedRecognizedCount": 0
+  },
+  "frames": [
+    {"timestamp": 0.00, "contacts": [{"identifier": 1, "phase": "began", "normalizedX": 0.20, "normalizedY": 0.20, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "began", "normalizedX": 0.25, "normalizedY": 0.26, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "began", "normalizedX": 0.23, "normalizedY": 0.32, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.06, "contacts": [{"identifier": 1, "phase": "moved", "normalizedX": 0.36, "normalizedY": 0.34, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "moved", "normalizedX": 0.41, "normalizedY": 0.40, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "moved", "normalizedX": 0.39, "normalizedY": 0.46, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]}
+  ]
+}

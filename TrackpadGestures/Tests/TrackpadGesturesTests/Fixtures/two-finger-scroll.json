@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "name": "two-finger-scroll",
+    "device": "fixture-trackpad",
+    "osVersion": "macOS 15",
+    "expectedRecognizedCount": 0
+  },
+  "frames": [
+    {"timestamp": 0.00, "contacts": [{"identifier": 1, "phase": "began", "normalizedX": 0.30, "normalizedY": 0.35, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "began", "normalizedX": 0.34, "normalizedY": 0.55, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.05, "contacts": [{"identifier": 1, "phase": "moved", "normalizedX": 0.30, "normalizedY": 0.30, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "moved", "normalizedX": 0.34, "normalizedY": 0.50, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]}
+  ]
+}

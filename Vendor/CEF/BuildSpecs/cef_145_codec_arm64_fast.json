@@ -1,0 +1,40 @@
+{
+  "name": "cef_145_codec_arm64_fast",
+  "platform": "mac",
+  "arch": "arm64",
+  "buildType": "Release",
+  "cef": {
+    "branch": null,
+    "commit": "4ddda2e4ab8e9d05616d69fbeacd49b17e8a2180"
+  },
+  "chromium": {
+    "commit": "refs/tags/145.0.7632.117"
+  },
+  "depotTools": {
+    "commit": null
+  },
+  "gn": {
+    "defines": [
+      "is_official_build=true",
+      "is_debug=false",
+      "is_component_build=false",
+      "symbol_level=0",
+      "blink_symbol_level=0",
+      "v8_symbol_level=0",
+      "dcheck_always_on=false",
+      "enable_nacl=false",
+      "proprietary_codecs=true",
+      "ffmpeg_branding=Chrome",
+      "chrome_pgo_phase=0",
+      "enable_widevine=true",
+      "enable_cdm_host_verification=true",
+      "enable_cdm_storage_id=true",
+      "alternate_cdm_storage_id_key=\"__SET_ME__\""
+    ],
+    "extraArgs": []
+  },
+  "export": {
+    "includeClient": true,
+    "tarFormat": "tar.bz2"
+  }
+}

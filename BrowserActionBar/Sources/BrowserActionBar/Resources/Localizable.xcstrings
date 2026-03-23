@@ -1,0 +1,186 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "browser.actionBar.action.currentTab" : {
+      "comment" : "Primary action title for opening an address in the current tab.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open In Current Tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のタブで開く"
+          }
+        }
+      }
+    },
+    "browser.actionBar.action.newTab" : {
+      "comment" : "Primary action title for opening an address in a new tab.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open In New Tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいタブで開く"
+          }
+        }
+      }
+    },
+    "browser.actionBar.empty.currentTab" : {
+      "comment" : "Empty-state guidance shown when the current-tab location palette has no URL to submit.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a URL to load it in the current tab."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL を入力すると現在のタブで開きます。"
+          }
+        }
+      }
+    },
+    "browser.actionBar.empty.newTab" : {
+      "comment" : "Empty-state guidance shown when the new-tab palette has no URL to submit.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enter a URL to open it in a new tab."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL を入力すると新しいタブで開きます。"
+          }
+        }
+      }
+    },
+    "browser.actionBar.label.field" : {
+      "comment" : "Accessibility label for the browser action bar search field.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Browser Address"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブラウザアドレス"
+          }
+        }
+      }
+    },
+    "browser.actionBar.label.list" : {
+      "comment" : "Accessibility label for the browser action bar suggestions list.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Browser Address Actions"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ブラウザアドレス操作"
+          }
+        }
+      }
+    },
+    "browser.actionBar.placeholder.currentTab" : {
+      "comment" : "Placeholder text for opening an address in the current tab.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open address in current tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のタブで開くアドレス"
+          }
+        }
+      }
+    },
+    "browser.actionBar.placeholder.newTab" : {
+      "comment" : "Placeholder text for opening an address in a new tab.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open address in new tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいタブで開くアドレス"
+          }
+        }
+      }
+    },
+    "browser.actionBar.title.currentTab" : {
+      "comment" : "Title shown when the browser action bar targets the current tab.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Location"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "場所を開く"
+          }
+        }
+      }
+    },
+    "browser.actionBar.title.newTab" : {
+      "comment" : "Title shown when the browser action bar targets a new tab.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open New Tab"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しいタブを開く"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

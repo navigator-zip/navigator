@@ -1,0 +1,240 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "browser_camera_managed_output_device_label" : {
+      "comment" : "Label exposed to sites when Navigator surfaces its managed camera device identity through enumerateDevices.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator Camera Output"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator Camera Output"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_allow" : {
+      "comment" : "Primary action title for allowing a browser permission request.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_deny" : {
+      "comment" : "Primary action title for denying a browser permission request.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deny"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拒否"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_kind_camera" : {
+      "comment" : "Label for the camera permission kind.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラ"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_kind_location" : {
+      "comment" : "Label for the location permission kind.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "位置情報"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_kind_microphone" : {
+      "comment" : "Label for the microphone permission kind.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Microphone"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイク"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_not_now" : {
+      "comment" : "Secondary action title for cancelling a browser permission prompt without persisting a decision.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not Now"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今回はしない"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_title_cross_origin" : {
+      "comment" : "Prompt title when the requesting frame origin differs from the top-level origin.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ on %2$@ wants to use:"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@（親ページ: %2$@）が次の権限を要求しています:"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_title_same_origin" : {
+      "comment" : "Prompt title when the requesting origin matches the top-level origin.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ wants to use:"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ が次の権限を要求しています:"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_remember" : {
+      "comment" : "Checkbox title for persisting a browser permission decision for the origin.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remember this decision"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この選択を記憶する"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_subtitle_media" : {
+      "comment" : "Subtitle explaining a media capture permission request.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navigator will ask macOS for device access after you continue."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "続行すると、Navigator が macOS にデバイスアクセスを要求します。"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_subtitle_permission" : {
+      "comment" : "Subtitle explaining a general site permission request.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Only the current tab can use this permission, unless you choose to remember it."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記憶を選ばない限り、この権限は現在のタブだけで使用されます。"
+          }
+        }
+      }
+    },
+    "browser_permission_prompt_wants_to_use" : {
+      "comment" : "Legacy fragment key retained for compatibility while permission prompt title strings migrate to full-format keys.",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "wants to use:"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "が次の権限を要求しています:"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}

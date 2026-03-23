@@ -1,0 +1,3984 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "navigator.settings.camera.unavailable": {
+      "comment": "Placeholder shown in Navigator settings when shared camera controls are unavailable in the current environment.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera controls are unavailable in this environment."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "この環境ではカメラ設定を利用できません。"
+          }
+        }
+      }
+    },
+    "navigator.settings.section.camera": {
+      "comment": "Title for the camera section in Navigator settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラ"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.lastError.format": {
+      "comment": "Tooltip line in the camera status item describing the most recent error when no newer diagnostic event is available.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last error: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最後のエラー: %@"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.browserTransport.format": {
+      "comment": "Tooltip line in the camera status item summarizing tracked browser transport tabs, managed track count, and browser-process fallback usage for Navigator Camera.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser transport: tabs %d • Tracks: %d • Fallback: %d"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザ転送: タブ %d • トラック %d • フォールバック %d"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.latestEvent.format": {
+      "comment": "Tooltip line in the camera status item describing the latest camera routing or processing event.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latest event: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最新イベント: %@"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.pipeline.format": {
+      "comment": "Tooltip line in the camera status item describing the currently active managed camera pipeline implementation, warmup profile, and filter count.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pipeline: %@ • %@ • %d filters"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パイプライン: %@ • %@ • フィルター %d 個"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.browserProcessFallbackActivated": {
+      "comment": "Camera diagnostics event label shown when Navigator falls back to a browser-process-managed camera path.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser fallback activated"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザフォールバック有効"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.captureFailed": {
+      "comment": "Camera diagnostics event label shown when camera capture fails.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture failed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャプチャ失敗"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.captureStartRequested": {
+      "comment": "Camera diagnostics event label shown when camera capture startup has been requested.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture start requested"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャプチャ開始要求"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.captureStarted": {
+      "comment": "Camera diagnostics event label shown when camera capture starts successfully.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture started"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャプチャ開始"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.captureStopped": {
+      "comment": "Camera diagnostics event label shown when camera capture stops.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capture stopped"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャプチャ停止"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.consumerRegistered": {
+      "comment": "Camera diagnostics event label shown when a managed camera consumer registers with the shared session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consumer registered"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "消費者を登録"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.consumerUnregistered": {
+      "comment": "Camera diagnostics event label shown when a managed camera consumer unregisters from the shared session.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Consumer unregistered"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "消費者を解除"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.deviceAvailabilityChanged": {
+      "comment": "Camera diagnostics event label shown when available camera sources change.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera source availability changed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラソース更新"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.filterPresetChanged": {
+      "comment": "Camera diagnostics event label shown when the selected managed camera filter preset changes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter preset changed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フィルター変更"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.firstFrameProduced": {
+      "comment": "Camera diagnostics event label shown when the first managed camera frame is produced.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First frame produced"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初回フレーム生成"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.managedTrackEnded": {
+      "comment": "Camera diagnostics event label shown when a managed browser video track ends.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Managed track ended"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理トラック終了"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.managedTrackStarted": {
+      "comment": "Camera diagnostics event label shown when a managed browser video track starts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Managed track started"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理トラック開始"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.managedTrackStopped": {
+      "comment": "Camera diagnostics event label shown when a managed browser video track stops.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Managed track stopped"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理トラック停止"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.permissionProbeFailed": {
+      "comment": "Camera diagnostics event label shown when a site-level managed camera permission probe fails.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Permission probe failed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "権限確認失敗"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.explicitDeviceBypassed": {
+      "comment": "Camera diagnostics event label shown when a site explicitly requests a physical camera and bypasses Navigator-managed routing.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Explicit device bypassed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "明示デバイスをバイパス"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.managedTrackDeviceSwitchRejected": {
+      "comment": "Camera diagnostics event label shown when a site tries to switch a managed camera track to another device and Navigator rejects it.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Managed track switch rejected"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理トラック切替を拒否"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.preferredSourceChanged": {
+      "comment": "Camera diagnostics event label shown when the preferred managed camera source changes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preferred source changed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "優先ソース変更"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.previewChanged": {
+      "comment": "Camera diagnostics event label shown when the shared managed camera preview is toggled.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview toggled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビュー切り替え"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.processingDegraded": {
+      "comment": "Camera diagnostics event label shown when managed camera processing falls below realtime thresholds.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Processing degraded"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "処理劣化"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.processingRecovered": {
+      "comment": "Camera diagnostics event label shown when managed camera processing recovers after degradation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Processing recovered"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "処理回復"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.publisherStatusChanged": {
+      "comment": "Camera diagnostics event label shown when the managed virtual-camera publisher state changes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publisher status changed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "公開状態変更"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.routingChanged": {
+      "comment": "Camera diagnostics event label shown when the managed camera routing contract changes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routing changed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティング変更"
+          }
+        }
+      }
+    },
+    "navigator.camera.diagnosticEvent.sourceLost": {
+      "comment": "Camera diagnostics event label shown when the selected managed camera source is lost.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Source lost"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ソース喪失"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.summary.active": {
+      "comment": "Tooltip summary for the camera status item when Navigator Camera is actively serving live or preview consumers.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera active"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera 使用中"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.summary.degraded": {
+      "comment": "Tooltip summary for the camera status item when Navigator Camera is degraded but still partially available.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera degraded"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera 劣化中"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.summary.failed": {
+      "comment": "Tooltip summary for the camera status item when Navigator Camera is unavailable.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera unavailable"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera 利用不可"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.summary.publisherUnavailable": {
+      "comment": "Tooltip summary for the camera status item when the virtual publisher path is unavailable.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera publisher unavailable"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera 公開先利用不可"
+          }
+        }
+      }
+    },
+    "navigator.camera.statusItem.summary.ready": {
+      "comment": "Tooltip summary for the camera status item when Navigator Camera is configured but not actively in use.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera ready"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator Camera 準備完了"
+          }
+        }
+      }
+    },
+    "navigator.debug.actions.copyReport": {
+      "comment": "Button title for copying the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy Report"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "レポートをコピー"
+          }
+        }
+      }
+    },
+    "navigator.debug.actions.openCache": {
+      "comment": "Button title for revealing the CEF cache folder.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Cache Folder"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャッシュフォルダを開く"
+          }
+        }
+      }
+    },
+    "navigator.debug.actions.openCrashReports": {
+      "comment": "Button title for revealing macOS crash reports.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Crash Reports"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "クラッシュレポートを開く"
+          }
+        }
+      }
+    },
+    "navigator.debug.actions.refresh": {
+      "comment": "Button title for refreshing the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更新"
+          }
+        }
+      }
+    },
+    "navigator.debug.actions.reloadBrowser": {
+      "comment": "Button title for reloading the tracked browser.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reload Browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザを再読み込み"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.bundleIdentifier": {
+      "comment": "Label for the app bundle identifier.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bundle identifier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バンドル識別子"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.bundlePath": {
+      "comment": "Label for the app bundle path.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bundle path"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バンドルパス"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraAverageLatency": {
+      "comment": "Label for the average camera processing latency in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Average processing latency"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "平均処理遅延"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraDroppedFrames": {
+      "comment": "Label for dropped camera frames in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dropped frames"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ドロップフレーム数"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraFailClosed": {
+      "comment": "Label for whether Navigator camera routing fails closed when managed output is unavailable in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fail closed when unavailable"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "利用不可時はクローズ"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraFirstFrameLatency": {
+      "comment": "Label for the first delivered camera frame latency in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "First frame latency"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "初回フレーム遅延"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraGenericManagedOutput": {
+      "comment": "Label for whether generic browser video requests use Navigator-managed output in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Generic video uses managed output"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通常の映像要求は管理出力を使用"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraHealth": {
+      "comment": "Label for the current camera health state in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera health"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラ健全性"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraLastError": {
+      "comment": "Label for the latest camera runtime error in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera last error"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラ直近エラー"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraLifecycle": {
+      "comment": "Label for the current camera lifecycle state in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera lifecycle"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラライフサイクル"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraLiveConsumers": {
+      "comment": "Label for active live-frame camera consumers in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Live consumers"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ライブ消費者数"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraBrowserTransportTabs": {
+      "comment": "Label for browser transport state across camera-routed tabs in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser transport tabs"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザ転送タブ"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraManagedDeviceIdentity": {
+      "comment": "Label for whether Navigator's synthetic managed camera device identity is exposed in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Managed device exposed"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理デバイスを公開"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraManagedRoutingAvailability": {
+      "comment": "Label for the current managed camera routing availability reason in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Managed routing availability"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "管理ルーティング可用性"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraOutputMode": {
+      "comment": "Label for the active camera output mode in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera output mode"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラ出力モード"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraPreviewEnabled": {
+      "comment": "Label for whether camera preview is enabled in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview enabled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビュー有効"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraPreferNavigatorCamera": {
+      "comment": "Label for whether Navigator-managed camera routing is preferred in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prefer Navigator camera"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigatorカメラ優先"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraPreviewConsumers": {
+      "comment": "Label for active preview camera consumers in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview consumers"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビュー消費者数"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraProcessedFrames": {
+      "comment": "Label for processed camera frame count in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Processed frames"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "処理済みフレーム数"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraPublisherState": {
+      "comment": "Label for the current camera publisher state in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publisher state"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パブリッシャー状態"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraPublisherTransport": {
+      "comment": "Label for the current camera publisher transport in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Publisher transport"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パブリッシャー転送"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraPipelineRuntime": {
+      "comment": "Label for the current managed camera pipeline implementation and warmup state in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pipeline runtime"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "パイプライン実行状態"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraRoutingEnabled": {
+      "comment": "Label for whether camera routing is enabled in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Routing enabled"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ルーティング有効"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraSelectedPreset": {
+      "comment": "Label for the selected camera filter preset in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected preset"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択中プリセット"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cameraSelectedSource": {
+      "comment": "Label for the selected camera source in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected source"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択中ソース"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.cachePath": {
+      "comment": "Label for the CEF cache path.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cache path"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャッシュパス"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.canGoBack": {
+      "comment": "Label for whether the tracked browser can navigate backward.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can go back"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "戻る可否"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.canGoForward": {
+      "comment": "Label for whether the tracked browser can navigate forward.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can go forward"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進む可否"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.currentURL": {
+      "comment": "Label for the tracked browser URL.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Current URL"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在のURL"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.helperPath": {
+      "comment": "Label for the helper executable path.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helper path"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Helperパス"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.isLoading": {
+      "comment": "Label for the tracked browser loading state.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Is loading"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "読み込み中"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.keyWindowTitle": {
+      "comment": "Label for the current key window title.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Key window title"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キーウインドウタイトル"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.lastActivitySignalAge": {
+      "comment": "Label for the time since the last activity signal.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last activity signal age"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最終アクティビティ信号からの経過時間"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.lastUserActivityAge": {
+      "comment": "Label for the time since the last user activity.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last user activity age"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最終ユーザー操作からの経過時間"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.localesPath": {
+      "comment": "Label for the resolved locales path.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Locales path"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ロケールパス"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.resourcePath": {
+      "comment": "Label for the app resource path.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resource path"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リソースパス"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.resourcesPath": {
+      "comment": "Label for the resolved CEF resources path.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resources path"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CEFリソースパス"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.runtimeInitialized": {
+      "comment": "Label for the runtime initialization state.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Runtime initialized"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ランタイム初期化済み"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.trackedBrowser": {
+      "comment": "Label for whether a browser is currently tracked.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tracked browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追跡中のブラウザ"
+          }
+        }
+      }
+    },
+    "navigator.browser.command.newTab": {
+      "comment": "Menu item title for opening the browser action bar in new-tab mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Tab"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新しいタブ"
+          }
+        }
+      }
+    },
+    "navigator.browser.command.openLocation": {
+      "comment": "Menu item title for opening the browser action bar in current-tab location mode.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Location"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "場所を開く"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.trackedBrowserCount": {
+      "comment": "Label for the number of tracked browsers.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tracked browser count"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追跡中のブラウザ数"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.trackedBrowserIdentifier": {
+      "comment": "Label for the tracked browser identifier.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tracked browser ID"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追跡中ブラウザID"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.version": {
+      "comment": "Label for the app version string.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バージョン"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.visibleWindowCount": {
+      "comment": "Label for the number of visible windows.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Visible windows"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "表示中のウインドウ数"
+          }
+        }
+      }
+    },
+    "navigator.debug.label.windowCount": {
+      "comment": "Label for the total number of windows.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Window count"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ウインドウ数"
+          }
+        }
+      }
+    },
+    "navigator.debug.menu.openDiagnostics": {
+      "comment": "Menu item title for opening the diagnostics window.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Diagnostics"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "診断を開く"
+          }
+        }
+      }
+    },
+    "navigator.debug.menu.title": {
+      "comment": "Title for the app debug menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Debug"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デバッグ"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.app": {
+      "comment": "Heading for the app section in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "App"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリ"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.camera": {
+      "comment": "Heading for the camera runtime section in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Camera"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カメラ"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.cameraEvents": {
+      "comment": "Heading for recent camera diagnostic events in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent camera events"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近のカメライベント"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.chromeDebugLog": {
+      "comment": "Heading for the chrome_debug.log excerpt section.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CEF log tail"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CEFログ末尾"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.crashReports": {
+      "comment": "Heading for recent crash reports in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recent crash reports"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近のクラッシュレポート"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.paths": {
+      "comment": "Heading for the CEF path section in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CEF paths"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CEFパス"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.runtime": {
+      "comment": "Heading for the browser runtime section in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser runtime"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザランタイム"
+          }
+        }
+      }
+    },
+    "navigator.debug.section.windows": {
+      "comment": "Heading for the window section in the diagnostics report.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Windows"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ウインドウ"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.exists": {
+      "comment": "Short status value used when a diagnostics path exists.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "exists"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "存在"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.missing": {
+      "comment": "Short status value used when a diagnostics path is missing.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "missing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なし"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.no": {
+      "comment": "Short negative boolean value used in diagnostics.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "no"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "いいえ"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.noCEFLog": {
+      "comment": "Fallback text when no chrome_debug.log output is available.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No `chrome_debug.log` output available yet."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "`chrome_debug.log` の出力はまだありません。"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.noCameraEvents": {
+      "comment": "Fallback text when no camera diagnostic events have been recorded yet.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No recent camera events recorded"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近のカメライベントは記録されていません。"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.noCrashReports": {
+      "comment": "Fallback text when no crash reports are present.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No recent crash reports found"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近のクラッシュレポートは見つかりません。"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.none": {
+      "comment": "Generic diagnostics fallback value.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "none"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "なし"
+          }
+        }
+      }
+    },
+    "navigator.debug.value.yes": {
+      "comment": "Short positive boolean value used in diagnostics.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "yes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "はい"
+          }
+        }
+      }
+    },
+    "navigator.debug.window.title": {
+      "comment": "Title for the diagnostics window.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Browser Diagnostics"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザ診断"
+          }
+        }
+      }
+    },
+    "navigator.settings.about.bundleIdentifier.title": {
+      "comment": "Title for the app bundle identifier row in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bundle identifier"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バンドル識別子"
+          }
+        }
+      }
+    },
+    "navigator.settings.account.placeholder": {
+      "comment": "Placeholder body text shown in the account section until account-specific controls are added.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account controls will appear here."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アカウント関連の設定はここに表示されます。"
+          }
+        }
+      }
+    },
+    "navigator.settings.about.version.title": {
+      "comment": "Title for the app version row in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バージョン"
+          }
+        }
+      }
+    },
+    "navigator.settings.defaultBrowser.action": {
+      "comment": "Button title for setting Navigator as the default browser.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set as Default Browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトブラウザに設定"
+          }
+        }
+      }
+    },
+    "navigator.settings.defaultBrowser.description": {
+      "comment": "Description for the default browser setting before Navigator becomes the default handler.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open HTTP and HTTPS links in Navigator."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTTP/HTTPSリンクをNavigatorで開きます。"
+          }
+        }
+      }
+    },
+    "navigator.settings.defaultBrowser.enabledDescription": {
+      "comment": "Description for the default browser setting when Navigator is already the default handler.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator currently opens HTTP and HTTPS links by default."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在、HTTP/HTTPSリンクはデフォルトでNavigatorで開かれます。"
+          }
+        }
+      }
+    },
+    "navigator.settings.defaultBrowser.title": {
+      "comment": "Title for the default browser setting in general settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトブラウザ"
+          }
+        }
+      }
+    },
+    "navigator.settings.defaultBrowser.updateFailedDescription": {
+      "comment": "Description for the default browser setting when setting Navigator as the default handler failed.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator couldn't update the default browser setting. Try again."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigatorでデフォルトブラウザ設定を更新できませんでした。もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "navigator.settings.updates.automaticCheck.action": {
+      "comment": "Checkbox title for automatically checking for app updates in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check for updates automatically"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデートを自動的に確認する"
+          }
+        }
+      }
+    },
+    "navigator.settings.updates.description": {
+      "comment": "Description for the app updates section in general settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator checks for updates in the background and lets you know when one is available."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Navigator はバックグラウンドでアップデートを確認し、利用可能になったら知らせます。"
+          }
+        }
+      }
+    },
+    "navigator.settings.updates.title": {
+      "comment": "Title for the app updates section in general settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Updates"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アップデート"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.arc.action": {
+      "comment": "Button title for importing browser data from Arc.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import from Arc"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Arcから読み込む"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.chrome.action": {
+      "comment": "Button title for importing browser data from Chrome.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import from Chrome"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chromeから読み込む"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.description": {
+      "comment": "Description for importing open tabs, bookmarks, and history from another browser.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bring your current tabs, bookmarks, and history into Navigator."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在のタブ、ブックマーク、履歴をNavigatorに取り込みます。"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.openBookmarks.action": {
+      "comment": "Button title for opening imported bookmarks in Navigator.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Imported Bookmarks"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "読み込んだブックマークを開く"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.openHistory.action": {
+      "comment": "Button title for opening imported history items in Navigator.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Imported History"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "読み込んだ履歴を開く"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.safari.action": {
+      "comment": "Button title for importing browser data from Safari.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import from Safari"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Safariから読み込む"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.summary.bookmarks": {
+      "comment": "Label for the bookmark count in the latest browser import summary.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bookmarks"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブックマーク"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.summary.history": {
+      "comment": "Label for the history count in the latest browser import summary.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "History"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "履歴"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.summary.importing": {
+      "comment": "Prefix shown while a browser import is in progress.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Importing from"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "読み込み中"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.summary.latest": {
+      "comment": "Label for the latest imported browser source in the summary.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Latest import"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最新の読み込み"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.summary.none": {
+      "comment": "Placeholder shown before any browser import has been performed.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No browser data has been imported yet."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "まだブラウザデータは読み込まれていません。"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.summary.profiles": {
+      "comment": "Label for the imported profile count in the browser import summary.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Profiles"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プロファイル"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.summary.tabs": {
+      "comment": "Label for the imported tab count in the browser import summary.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tabs"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ"
+          }
+        }
+      }
+    },
+    "navigator.settings.import.title": {
+      "comment": "Title for the browser import section in general settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Import from another browser"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "別のブラウザから読み込む"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.reopenClosedTab": {
+      "comment": "Title for the File menu command that reopens the most recently closed tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reopen Closed Tab"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "閉じたタブを再度開く"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.newWindow": {
+      "comment": "Title for the File menu command that opens a new browser window.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "New Window"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新規ウインドウ"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab1": {
+      "comment": "Title for the File menu command that selects the first tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 1"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ1を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab2": {
+      "comment": "Title for the File menu command that selects the second tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 2"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ2を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab3": {
+      "comment": "Title for the File menu command that selects the third tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 3"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ3を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab4": {
+      "comment": "Title for the File menu command that selects the fourth tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 4"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ4を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab5": {
+      "comment": "Title for the File menu command that selects the fifth tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 5"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ5を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab6": {
+      "comment": "Title for the File menu command that selects the sixth tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 6"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ6を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab7": {
+      "comment": "Title for the File menu command that selects the seventh tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 7"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ7を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab8": {
+      "comment": "Title for the File menu command that selects the eighth tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 8"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ8を選択"
+          }
+        }
+      }
+    },
+    "navigator.file.menu.selectTab9": {
+      "comment": "Title for the File menu command that selects the ninth tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Tab 9"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブ9を選択"
+          }
+        }
+      }
+    },
+    "navigator.settings.menu.title": {
+      "comment": "Title for the app menu settings command.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings..."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定..."
+          }
+        }
+      }
+    },
+    "navigator.settings.section.about": {
+      "comment": "Section title for the about area in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリ情報"
+          }
+        }
+      }
+    },
+    "navigator.settings.section.account": {
+      "comment": "Header title for the account section in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アカウント"
+          }
+        }
+      }
+    },
+    "navigator.settings.section.colophon": {
+      "comment": "Header title for the colophon section in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Colophon"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "奥付"
+          }
+        }
+      }
+    },
+    "navigator.settings.section.general": {
+      "comment": "Header title for the general section in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "General"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
+        }
+      }
+    },
+    "navigator.settings.section.layout": {
+      "comment": "Section title for layout controls in settings.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layout"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "レイアウト"
+          }
+        }
+      }
+    },
+    "navigator.settings.sidebarWidth.description": {
+      "comment": "Description for the sidebar width setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sets the default width of the browser sidebar."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ブラウザのサイドバーのデフォルト幅を設定します。"
+          }
+        }
+      }
+    },
+    "navigator.settings.sidebarWidth.title": {
+      "comment": "Title for the sidebar width setting.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sidebar width"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "サイドバーの幅"
+          }
+        }
+      }
+    },
+    "navigator.settings.window.subtitle": {
+      "comment": "Subtitle shown under the settings window title.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adjust Navigator defaults for this Mac."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMac向けのNavigatorの既定値を調整します。"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.copy": {
+      "comment": "Edit menu item for copy.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Copy"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コピー"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.cut": {
+      "comment": "Edit menu item for cut.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cut"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "切り取り"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.delete": {
+      "comment": "Edit menu item for delete.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "削除"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.find": {
+      "comment": "Edit menu item for opening find.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検索…"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.find.andReplace": {
+      "comment": "Title for the Edit menu Find and Replace action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find and Replace…"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検索と置換…"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.find.next": {
+      "comment": "Title for the Edit menu Find Next action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Next"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次を検索"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.find.previous": {
+      "comment": "Title for the Edit menu Find Previous action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find Previous"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前を検索"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.find.title": {
+      "comment": "Title for the Find submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Find"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "検索"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.find.useSelection": {
+      "comment": "Edit menu item for using the current selection for find.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Use Selection for Find"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択部分を検索に使用"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.bold": {
+      "comment": "Edit menu item for bold font.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bold"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "太字"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.format": {
+      "comment": "Edit menu item for font format.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Format"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "書式"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.highlight": {
+      "comment": "Edit menu item for highlighting text.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Highlight"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ハイライト"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.italic": {
+      "comment": "Edit menu item for italic font.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Italic"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "斜体"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.outline": {
+      "comment": "Edit menu item for outline text.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Outline"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アウトライン"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.show": {
+      "comment": "Edit menu item for showing fonts.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Fonts"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォントを表示"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.showColors": {
+      "comment": "Edit menu item for showing colors.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Colors"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カラーを表示"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.styles": {
+      "comment": "Edit menu item for font styles.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Styles"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スタイル"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.title": {
+      "comment": "Title for the Font submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Font"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フォント"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.font.underline": {
+      "comment": "Edit menu item for underline.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Underline"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下線"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.layoutOrientation.horizontal": {
+      "comment": "Edit menu item for horizontal layout orientation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Horizontal"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "横書き"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.layoutOrientation.title": {
+      "comment": "Title for the Layout Orientation submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Layout Orientation"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "レイアウト方向"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.layoutOrientation.vertical": {
+      "comment": "Edit menu item for vertical layout orientation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Vertical"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "縦書き"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.paste": {
+      "comment": "Edit menu item for paste.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "貼り付け"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.pasteAndMatchStyle": {
+      "comment": "Edit menu item for paste and match style.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paste and Match Style"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ペーストしてスタイルを合わせる"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.redo": {
+      "comment": "Edit menu item for redo.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Redo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "やり直す"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.selectAll": {
+      "comment": "Edit menu item for select all.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select All"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべてを選択"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.speech.start": {
+      "comment": "Edit menu item for starting speech.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start Speaking"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "読み上げを開始"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.speech.stop": {
+      "comment": "Edit menu item for stopping speech.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop Speaking"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "読み上げを停止"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.speech.title": {
+      "comment": "Title for the Speech submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Speech"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スピーチ"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.spelling.checkGrammar": {
+      "comment": "Edit menu item for grammar checking.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Grammar With Spelling"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スペルと一緒に文法をチェック"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.spelling.checkNow": {
+      "comment": "Edit menu item for checking spelling immediately.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Document Now"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今すぐ文書をチェック"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.spelling.checkWhileTyping": {
+      "comment": "Edit menu item for continuous spell checking.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Spelling While Typing"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "入力中にスペルをチェック"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.spelling.correctAutomatically": {
+      "comment": "Edit menu item for automatic spelling correction.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Correct Spelling Automatically"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スペルを自動的に修正"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.spelling.show": {
+      "comment": "Edit menu item for showing the spelling and grammar panel.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Spelling and Grammar"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スペルと文法を表示"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.spelling.title": {
+      "comment": "Title for the Spelling and Grammar submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spelling and Grammar"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スペルと文法"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.addLinks": {
+      "comment": "Edit menu item for link detection substitution.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smart Links"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スマートリンク"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.dataDetectors": {
+      "comment": "Edit menu item for data detectors.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data Detectors"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "データ検出"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.replaceDashes": {
+      "comment": "Edit menu item for dash substitution.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smart Dashes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スマートダッシュ"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.replaceQuotes": {
+      "comment": "Edit menu item for quote substitution.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smart Quotes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スマートクォート"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.replaceText": {
+      "comment": "Edit menu item for text replacement substitution.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text Replacement"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "テキスト置換"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.show": {
+      "comment": "Edit menu item for showing substitutions.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show Substitutions"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "置換を表示"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.smartCopyPaste": {
+      "comment": "Edit menu item for smart copy and paste.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smart Copy/Paste"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スマートコピーとペースト"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.smartDashes": {
+      "comment": "Edit menu item for smart dashes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smart Dashes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スマートダッシュ"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.smartLinks": {
+      "comment": "Edit menu item for smart links.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smart Links"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スマートリンク"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.smartQuotes": {
+      "comment": "Edit menu item for smart quotes.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Smart Quotes"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "スマートクォート"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.textReplacement": {
+      "comment": "Edit menu item for text replacement.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text Replacement"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "テキスト置換"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.substitutions.title": {
+      "comment": "Title for the Substitutions submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Substitutions"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "置換"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.title": {
+      "comment": "Title for the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編集"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.transformations.capitalize": {
+      "comment": "Edit menu item for capitalizing text.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Capitalize"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "先頭を大文字にする"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.transformations.lowercase": {
+      "comment": "Edit menu item for lowercasing text.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Make Lower Case"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "小文字にする"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.transformations.title": {
+      "comment": "Title for the Transformations submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Transformations"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "変換"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.transformations.uppercase": {
+      "comment": "Edit menu item for uppercasing text.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Make Upper Case"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "大文字にする"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.undo": {
+      "comment": "Edit menu item for undo.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Undo"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "元に戻す"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.paragraph": {
+      "comment": "Edit menu item heading for paragraph writing direction.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Paragraph"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "段落"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.paragraphDefault": {
+      "comment": "Title for the paragraph writing direction default action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルト"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.paragraphLeftToRight": {
+      "comment": "Title for the paragraph writing direction left-to-right action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Left to Right"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左から右"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.paragraphRightToLeft": {
+      "comment": "Title for the paragraph writing direction right-to-left action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Right to Left"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右から左"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.selection": {
+      "comment": "Edit menu item heading for selection writing direction.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selection"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選択範囲"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.selectionDefault": {
+      "comment": "Title for the selection writing direction default action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルト"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.selectionLeftToRight": {
+      "comment": "Title for the selection writing direction left-to-right action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Left to Right"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左から右"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.selectionRightToLeft": {
+      "comment": "Title for the selection writing direction right-to-left action.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Right to Left"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右から左"
+          }
+        }
+      }
+    },
+    "navigator.menu.edit.writingDirection.title": {
+      "comment": "Title for the Writing Direction submenu in the Edit menu.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Writing Direction"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文字の方向"
+          }
+        }
+      }
+    },
+    "navigator.trackpad.toast.goBack": {
+      "comment": "Toast shown after a recognized three-finger swipe-left triggers backward navigation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Went back"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "戻りました"
+          }
+        }
+      }
+    },
+    "navigator.toast.copyCurrentTabURL.body": {
+      "comment": "Body text for the toast shown after copying the active tab URL.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The current tab URL was copied to the clipboard."
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "現在のタブのURLをクリップボードにコピーしました。"
+          }
+        }
+      }
+    },
+    "navigator.toast.copyCurrentTabURL.title": {
+      "comment": "Title for the toast shown after copying the active tab URL.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Link copied"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リンクをコピーしました"
+          }
+        }
+      }
+    },
+    "navigator.toast.pinnedTab.title": {
+      "comment": "Title for the toast shown after pinning the selected tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pinned tab"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブを固定しました"
+          }
+        }
+      }
+    },
+    "navigator.toast.unpinnedTab.title": {
+      "comment": "Title for the toast shown after unpinning the selected tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unpinned tab"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "タブの固定を解除しました"
+          }
+        }
+      }
+    },
+    "navigator.trackpad.toast.goForward": {
+      "comment": "Toast shown after a recognized three-finger swipe-right triggers forward navigation.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Went forward"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進みました"
+          }
+        }
+      }
+    },
+    "navigator.trackpad.toast.selectNextTab": {
+      "comment": "Toast shown after a recognized three-finger swipe-right selects the next tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected next tab"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "次のタブを選択しました"
+          }
+        }
+      }
+    },
+    "navigator.trackpad.toast.selectPreviousTab": {
+      "comment": "Toast shown after a recognized three-finger swipe-left selects the previous tab.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected previous tab"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "前のタブを選択しました"
+          }
+        }
+      }
+    },
+    "navigator.settings.window.closeAction": {
+      "comment": "Accessibility label and help text for the settings window close control.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Close Window"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ウインドウを閉じる"
+          }
+        }
+      }
+    },
+    "navigator.settings.window.title": {
+      "comment": "Title for the settings window.",
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.1"
+}

@@ -1,0 +1,69 @@
+/.build
+.DS_Store
+**/.build/
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+.api-baseline/
+MiumKit/.DS_Store
+MiumKit/.build/
+MiumKit/.swiftpm/
+MiumKit/.cef-source-fullrun-v2/
+MiumKit/Source/
+MiumKit/.artifact-source-stage
+MiumKit/.artifact-source-stage-runtime-ready
+.artifact-cache/
+.artifact-source-stage
+build/
+build/**/.git/
+build/**/CMakeCache.txt
+build/**/*.o
+build/**/*.a
+build/**/*.d
+build/**/*.swiftmodule
+build/**/*.swiftinterface
+
+.artifact-source-ready/Frameworks/Chromium Embedded Framework.framework/
+**/Package.resolved
+!Navigator.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Environment/IDE/local tooling
+.env
+.env.*
+!.env.example
+!.env.local.example
+.vscode/
+.idea/
+
+# Build/test artifacts
+*.xcresult
+*.dSYM
+*.profraw
+*.profdata
+coverage/
+fastlane/report.xml
+
+# Swift/iOS additional
+*.xcuserstate
+xcuserdata/
+Pods/
+
+# JavaScript/Node
+node_modules/
+.next/
+.turbo/
+
+# Generic temp artifacts
+*.swp
+*.swo
+*.orig
+*~
+
+# Generated CEF packaging artifacts
+tmp/
+Tools/tmp/
+tmp/cef_packager_*/
+Tools/tmp/cef_packager_*/

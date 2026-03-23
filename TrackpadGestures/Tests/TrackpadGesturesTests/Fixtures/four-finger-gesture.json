@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "name": "four-finger-gesture",
+    "device": "fixture-trackpad",
+    "osVersion": "macOS 15",
+    "expectedRecognizedCount": 0
+  },
+  "frames": [
+    {"timestamp": 0.00, "contacts": [{"identifier": 1, "phase": "began", "normalizedX": 0.20, "normalizedY": 0.32, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "began", "normalizedX": 0.24, "normalizedY": 0.38, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "began", "normalizedX": 0.22, "normalizedY": 0.44, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 4, "phase": "began", "normalizedX": 0.18, "normalizedY": 0.50, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]}
+  ]
+}

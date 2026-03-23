@@ -1,0 +1,7 @@
+{
+  "expectedPaths": {
+    "resourcesRelativePath": "Contents/Resources",
+    "localesRelativePath": "Contents/Frameworks/Chromium Embedded Framework.framework/Versions/A/Resources/locales",
+    "helpersDirRelativePath": "Contents/Frameworks"
+  }
+}

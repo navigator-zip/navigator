@@ -1,0 +1,17 @@
+#pragma once
+
+#include "include/capi/cef_app_capi.h"
+#include "include/capi/cef_browser_capi.h"
+#include "include/capi/cef_browser_process_handler_capi.h"
+#include "include/capi/cef_client_capi.h"
+#include "include/capi/cef_display_handler_capi.h"
+#include "include/capi/cef_frame_capi.h"
+#include "include/capi/cef_jsdialog_handler_capi.h"
+#include "include/capi/cef_load_handler_capi.h"
+#include "include/capi/cef_permission_handler_capi.h"
+#include "include/capi/cef_process_message_capi.h"
+#include "include/capi/cef_render_process_handler_capi.h"
+#include "include/capi/cef_request_context_capi.h"
+#include "include/capi/cef_v8_capi.h"
+#include "include/capi/cef_values_capi.h"
+#include "include/internal/cef_string_list.h"

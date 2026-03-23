@@ -1,0 +1,15 @@
+{
+  "metadata": {
+    "name": "left-swipe",
+    "device": "fixture-trackpad",
+    "osVersion": "macOS 15",
+    "expectedRecognizedCount": 1
+  },
+  "frames": [
+    {"timestamp": 0.00, "contacts": [{"identifier": 1, "phase": "began", "normalizedX": 0.50, "normalizedY": 0.40, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "began", "normalizedX": 0.54, "normalizedY": 0.46, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "began", "normalizedX": 0.52, "normalizedY": 0.52, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.05, "contacts": [{"identifier": 1, "phase": "moved", "normalizedX": 0.43, "normalizedY": 0.40, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "moved", "normalizedX": 0.47, "normalizedY": 0.46, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "moved", "normalizedX": 0.45, "normalizedY": 0.52, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.10, "contacts": [{"identifier": 1, "phase": "moved", "normalizedX": 0.34, "normalizedY": 0.40, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "moved", "normalizedX": 0.38, "normalizedY": 0.46, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "moved", "normalizedX": 0.36, "normalizedY": 0.52, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.15, "contacts": [{"identifier": 1, "phase": "moved", "normalizedX": 0.24, "normalizedY": 0.40, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "moved", "normalizedX": 0.28, "normalizedY": 0.46, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "moved", "normalizedX": 0.26, "normalizedY": 0.52, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.20, "contacts": []}
+  ]
+}

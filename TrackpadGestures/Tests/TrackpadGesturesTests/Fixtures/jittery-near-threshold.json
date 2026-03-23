@@ -1,0 +1,14 @@
+{
+  "metadata": {
+    "name": "jittery-near-threshold",
+    "device": "fixture-trackpad",
+    "osVersion": "macOS 15",
+    "expectedRecognizedCount": 0
+  },
+  "frames": [
+    {"timestamp": 0.00, "contacts": [{"identifier": 1, "phase": "began", "normalizedX": 0.20, "normalizedY": 0.40, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "began", "normalizedX": 0.24, "normalizedY": 0.46, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "began", "normalizedX": 0.22, "normalizedY": 0.52, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.06, "contacts": [{"identifier": 1, "phase": "moved", "normalizedX": 0.24, "normalizedY": 0.41, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "moved", "normalizedX": 0.27, "normalizedY": 0.47, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "moved", "normalizedX": 0.25, "normalizedY": 0.53, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.14, "contacts": [{"identifier": 1, "phase": "stationary", "normalizedX": 0.25, "normalizedY": 0.41, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "stationary", "normalizedX": 0.28, "normalizedY": 0.47, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "stationary", "normalizedX": 0.26, "normalizedY": 0.53, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]},
+    {"timestamp": 0.28, "contacts": [{"identifier": 1, "phase": "stationary", "normalizedX": 0.25, "normalizedY": 0.41, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 2, "phase": "stationary", "normalizedX": 0.28, "normalizedY": 0.47, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}, {"identifier": 3, "phase": "stationary", "normalizedX": 0.26, "normalizedY": 0.53, "majorAxis": 0.01, "minorAxis": 0.01, "pressure": 0.5, "angle": 0.0}]}
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "configurations" : [
+    {
+      "id" : "90CCBF88-B102-49FB-8544-F39BCA4F93E2",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ActionBarView",
+        "identifier" : "ActionBarViewTests",
+        "name" : "ActionBarViewTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Aesthetics",
+        "identifier" : "AestheticsTests",
+        "name" : "AestheticsTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BrowserActionBar",
+        "identifier" : "BrowserActionBarTests",
+        "name" : "BrowserActionBarTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BrowserRuntime",
+        "identifier" : "BrowserRuntimeTests",
+        "name" : "BrowserRuntimeTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BrowserSidebar",
+        "identifier" : "BrowserSidebarTests",
+        "name" : "BrowserSidebarTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:BrowserView",
+        "identifier" : "BrowserViewTests",
+        "name" : "BrowserViewTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:CookiesInterop",
+        "identifier" : "CookiesInteropTests",
+        "name" : "CookiesInteropTests"
+      }
+    },
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:MiumKit",
+        "identifier" : "MiumKitTests",
+        "name" : "MiumKitTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:Navigator.xcodeproj",
+        "identifier" : "778A5D3840F8FFF4A31A3E4B",
+        "name" : "NavigatorTests"
+      }
+    }
+  ],
+  "version" : 1
+}

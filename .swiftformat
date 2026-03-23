@@ -1,0 +1,52 @@
+# General Options
+--swiftversion 5.9
+
+# Format Options
+--allman false
+--binarygrouping none
+--closingparen balanced
+--commas always
+--conflictmarkers reject
+--elseposition next-line
+--exponentcase lowercase
+--exponentgrouping disabled
+--extensionacl on-extension
+--fractiongrouping disabled
+--fragment false
+--header ignore
+--hexgrouping none
+--hexliteralcase uppercase
+--ifdef indent
+--importgrouping alphabetized
+--indent tab
+--indentcase false
+--extensionacl on-extension
+--trimwhitespace always
+--maxwidth 120 
+--nospaceoperators ..<,...
+--octalgrouping none
+--operatorfunc no-space
+--selfrequired
+--stripunusedargs closure-only
+--trimwhitespace always
+--wraparguments before-first
+--wrapcollections before-first
+--wrapparameters before-first
+
+# Rules
+--disable hoistPatternLet
+--disable redundantReturn
+--disable redundantSelf
+--disable trailingclosures
+--disable wrapMultilineStatementBraces
+--disable preferKeyPath
+--disable hoistAwait
+
+# Exclusions
+--exclude **/*Generated/*
+--exclude **/*generated*
+--exclude vendor/*
+--exclude .derived/*
+--exclude build/*
+--exclude DerivedData/*
+--exclude **/DerivedData/*
